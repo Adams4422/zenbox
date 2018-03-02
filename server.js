@@ -7,12 +7,12 @@ var server = net.createServer()
 server.listen(8080)
 
 //starting corenlp server
-var command = 'java -mxg4 -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer';
+/*var command = 'java -mxg4 -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer';
 spawn.exec(command, (err) =>{
 	if(err){
 		console.log(err);
 	}
-});
+});*/
 
 server.on('connection', (socket) => {
 	socket.on('data', (data) => {
