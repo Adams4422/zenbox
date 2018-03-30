@@ -31,6 +31,8 @@ public class SelectApp {
     public void selectAll(String verbe){
     	String url = "jdbc:sqlite:/home/leo/eclipse-workspace/corenlp/corenlp";
 
+    	verbe = "'" + verbe + "'";
+    	
 		String sql = "SELECT name FROM verb WHERE verb = " + verbe + ";";
 
 
