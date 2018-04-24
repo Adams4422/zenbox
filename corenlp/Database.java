@@ -6,22 +6,14 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
  
-/**
- *
- * @author sqlitetutorial.net
- */
+/** @author sqlitetutorial.net */
 public class Database {
 	
     public static void main(String[] args) {
     	createNewTable();
-    	//createNewDatabase("corenlp");
     }
  
-    /**
-     * Connect to a sample database
-     *
-     * @param fileName the database file name
-     */
+    /** Connect to a sample database */
     public static void createNewDatabase(String fileName) {
  
         String url = "jdbc:sqlite:/home/leo/eclipse-workspace/corenlp/" + fileName;
@@ -38,11 +30,7 @@ public class Database {
         }
     }
     
-
-    /**
-     * Create a new table in the test database
-     *
-     */
+    /** Create a new table in the test database */
     public static void createNewTable() {
         // SQLite connection string
     	String url = "jdbc:sqlite:/home/leo/eclipse-workspace/corenlp/corenlp";
@@ -61,9 +49,5 @@ public class Database {
             System.out.println(e.getMessage());
         }
     }
- 
-
- 
-
 
 }

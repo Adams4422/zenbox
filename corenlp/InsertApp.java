@@ -18,7 +18,6 @@ public class InsertApp {
 		app.insertAllumer("on","energize");
 		app.insertAllumer("on","ignite");
 		app.insertAllumer("on","kick-start");
-		//app.insertAllumer("put on");
 		app.insertAllumer("on","start");
 		
 		app.insertEteindre("off","unplug");
