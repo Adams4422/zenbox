@@ -1,6 +1,3 @@
-# zenbox
-
-stanford-corenlp-3.9.1-models.jar
 
 # Projet Zenbox
 
@@ -16,7 +13,7 @@ Ce que vous avez besoin d'installer et comment l'installer
 
 * Java  
 * Node JS
-* Eclipse version x.x.x
+* EclipseEE (optionnel, si run le code java via terminal)
 
 ### Installation
 
@@ -28,26 +25,11 @@ Clonez le répertoire github
 git clone https://github.com/davidb987654/zenbox.git
 ```
 
-téléchargez la version x.x.x de Core NLP, voir https://stanfordnlp.github.io/CoreNLP/download.html
-
-```
-until finished
-```
-
-Lancez le serveur node JS present dans le repertoire code-pytradfri
-```
-node server.js 
-```
-
-Dans un nouveau terminal, allez dans le dossier Code App react et tapez :
-
-```
-npm start
-```
+téléchargez la dernière version de Core NLP, voir https://stanfordnlp.github.io/CoreNLP/download.html
 
 Depuis eclipseEE, créer un projet maven. Ajouter tous les fichiers du dépot git presents dans Code java CoreNLP/src/corenlp dans votre dossier src puis modifier votre fichier pom.xml en le remplaçant par celui present dans le dépot Git.
 
-Veillez à bien ajouter les librairies correspondant à CoreNLP téléchargées précedemment dans le Path. Il faudra également ajouter les librairies permettant de run mysql.
+Veillez à bien ajouter les librairies correspondant à CoreNLP téléchargées précedemment dans le Path. Il faudra également ajouter les librairies permettant de run mysql. 
 
 ## Déploiement
 
@@ -65,7 +47,7 @@ node server.js
 ```
 npm start
 ```
-Une page internet s'ouvre, il vous suffit desormais de taper votre commande et de cliquer sur le bouton
+Une page navigateur s'ouvre, il vous suffit desormais de taper votre commande et de cliquer sur le bouton
 
 ## Auteurs
 * **Guiplain Léo** 
