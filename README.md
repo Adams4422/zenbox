@@ -25,7 +25,7 @@ Ces exemples vont vous mener pas à pas à travers l'installation afin d'avoir l
 Clonez le répertoire github
 
 ```
-Give the example
+git clone https://github.com/davidb987654/zenbox.git
 ```
 
 téléchargez la version x.x.x de Core NLP, voir https://stanfordnlp.github.io/CoreNLP/download.html
@@ -34,27 +34,40 @@ téléchargez la version x.x.x de Core NLP, voir https://stanfordnlp.github.io/C
 until finished
 ```
 
-Lancez le serveur node JS dans à la racine du répertoire GIT
-
+Lancez le serveur node JS present dans le repertoire code-pytradfri
 ```
-node Server-side.js
+node server.js 
 ```
 
-Dans un nouveau terminal, allez dans le dossier ServeurReact et :
+Dans un nouveau terminal, allez dans le dossier Code App react et tapez :
 
 ```
 npm start
 ```
 
-Depuis eclipse, run le 
+Depuis eclipseEE, créer un projet maven. Ajouter tous les fichiers du dépot git presents dans Code java CoreNLP/src/corenlp dans votre dossier src puis modifier votre fichier pom.xml en le remplaçant par celui present dans le dépot Git.
 
+Veillez à bien ajouter les librairies correspondant à CoreNLP téléchargées précedemment dans le Path. Il faudra également ajouter les librairies permettant de run mysql.
 
 ## Déploiement
 
-Notes supplémentaires sur ce qu'il faut pour déployer notre système (node js, npm install si pas mis plus haut etc) eclipse packages etc. 
+Pour lancer notre application vous devez suivre ces étapes :
 
-## Autheurs
+  1. Sous Eclipse, 
+```
+run Serveur.java
+```
+  2. Via le terminal, dans le dossier pytradfri 
+```
+node server.js
+```
+  3. Via le terminalans le dossier Code App React
+```
+npm start
+```
+Une page internet s'ouvre, il vous suffit desormais de taper votre commande et de cliquer sur le bouton
 
+## Auteurs
 * **Guiplain Léo** 
 * **Aguirre Max**
 * **Izabelle François**
