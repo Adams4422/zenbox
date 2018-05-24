@@ -16,6 +16,7 @@ Ce que vous avez besoin d'installer et comment l'installer
 
 * Java  
 * Node JS
+* Eclipse version x.x.x
 
 ### Installation
 
