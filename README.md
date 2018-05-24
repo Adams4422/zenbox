@@ -29,7 +29,7 @@ téléchargez la dernière version de Core NLP, voir https://stanfordnlp.github.
 
 Depuis eclipseEE, créer un projet maven. Ajouter tous les fichiers du dépot git presents dans Code java CoreNLP/src/corenlp dans votre dossier src puis modifier votre fichier pom.xml en le remplaçant par celui present dans le dépot Git.
 
-Veillez à bien ajouter les librairies correspondant à CoreNLP téléchargées précedemment dans le Path. Il faudra également ajouter les librairies permettant de run mysql. 
+Veillez à bien ajouter les librairies correspondant à CoreNLP téléchargées précedemment dans le Path. Il faudra également ajouter les librairies java permettant de run mysql (my sql connector).
 
 ## Déploiement
 
