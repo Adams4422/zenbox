@@ -33,7 +33,20 @@ téléchargez la version x.x.x de Core NLP, voir https://stanfordnlp.github.io/C
 until finished
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Lancez le serveur node JS dans à la racine du répertoire GIT
+
+```
+node Server-side.js
+```
+
+Dans un nouveau terminal, allez dans le dossier ServeurReact et :
+
+```
+npm start
+```
+
+Depuis eclipse, run le 
+
 
 ## Déploiement
 
