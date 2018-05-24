@@ -14,9 +14,8 @@ Ces instructions vont vous permettre d'obtenir une version fonctionnelle du proj
 
 Ce que vous avez besoin d'installer et comment l'installer
 
-```
-Give examples
-```
+* Java  
+* Node JS
 
 ### Installation
 
